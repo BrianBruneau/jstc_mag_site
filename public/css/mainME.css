@@ -1,0 +1,19 @@
+.main_img_outer {
+    text-align: center;
+
+}
+
+.main_img_inner {
+    overflow:hidden;
+
+
+}
+
+.main_img_inner a img {
+    display : block;
+    margin : auto;
+    height: 600px;
+    width: 600px;
+    margin-right: 210px;
+}
+
