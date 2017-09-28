@@ -16,5 +16,20 @@ app.get("/", function(req, res) {
 
 });
 
+app.get("/about", function(req, res) {
+    res.render("about");
+
+});
+
+app.get("/trending", function(req, res) {
+    res.render("trending");
+
+});
+
+app.get("/topartist", function(req, res) {
+    res.render("topartist");
+
+});
+
 
 app.listen(process.env.PORT || 3000);

@@ -100,24 +100,24 @@ a {
 }
 
 .menu-icon__line {
-  width: 1.5rem;
-  height: 0.2rem;
+  width: 2.5rem;
+  height: 0.5rem;
   background-color: #800020;
   display: block;
 }
 .menu-icon__line:before, .menu-icon__line:after {
   content: '';
-  width: 1.5rem;
-  height: 0.2rem;
+  width: 2.5rem;
+  height: 0.5rem;
   background-color: #800020;
   display: inline-block;
   position: relative;
 }
 .menu-icon__line:before {
-  top: -0.6rem;
+  top: -1rem;
 }
 .menu-icon__line:after {
-  top: -1.5rem;
+  top: 0.5rem;
 }
 
 .heading {
@@ -263,8 +263,6 @@ a {
 }
 
 .scroller {
-
-  width: 7.5rem;
   display: inline-block;
   float: right;
   position: relative;
@@ -279,6 +277,8 @@ a {
   display: inline-block;
   float: left;
   margin-top: 1rem;
+  margin-right: 10px;
+  font-size: 17px;
 }
 .scroller .timeline {
   width: 1.5rem;
